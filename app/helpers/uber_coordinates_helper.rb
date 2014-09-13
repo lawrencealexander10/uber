@@ -1,0 +1,2 @@
+module UberCoordinatesHelper
+end

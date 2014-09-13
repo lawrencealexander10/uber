@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uber_coordinate_id: 1
+  product: MyString
+  eta: 1
+  surge: 1.5
+
+two:
+  uber_coordinate_id: 1
+  product: MyString
+  eta: 1
+  surge: 1.5
