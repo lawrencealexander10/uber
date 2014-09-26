@@ -13,14 +13,14 @@ Location:
 </div>
 
 <div class= "table-class">
-<% if UberCoordinate.last %>
+<% if @list %>
     <table class="table table-striped table-bordered" border = "3">
 
     <% @list.each do |data| %>
 	    <tr>
 	    	<td><%=data.location%></td>
-	    	<!-- <td><%=data.latitude%></td>
-	    	<td><%=data.longitude%></td> -->
+	    	<td><%=data.latitude%></td>
+	    	<td><%=data.longitude%></td>
 	    	<% data.vehicles.each do |vehicle| %>
 	    		<td><%=vehicle.product%></td>
 	    		<td><%=vehicle.eta%></td>

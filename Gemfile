@@ -46,3 +46,5 @@ gem "ruby_uber"
 gem 'bootstrap-sass'
 # paginate table
 gem 'will_paginate'
+#background processing
+gem 'delayed_job_active_record'
