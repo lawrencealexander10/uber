@@ -48,3 +48,5 @@ gem 'bootstrap-sass'
 gem 'will_paginate'
 #background processing
 gem 'delayed_job_active_record'
+#background processing web dashboard
+gem 'delayed_job_web'

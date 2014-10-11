@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'uber_coordinates#new'
   get 'uber_coordinates/new'
   post 'uber_coordinates/create' => 'uber_coordinates#create'
+  match "/delayed_job" => DelayedJobWeb, :anchor => false, via: [:get, :post]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
