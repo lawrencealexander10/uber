@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uber_coordinate_id: 1
+  product_id: MyString
+  product_name: MyString
+
+two:
+  uber_coordinate_id: 1
+  product_id: MyString
+  product_name: MyString

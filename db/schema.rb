@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140923200025) do
+ActiveRecord::Schema.define(version: 20141015013334) do
 
   create_table "delayed_jobs", force: true do |t|
     t.integer  "priority",   default: 0, null: false
@@ -28,6 +28,12 @@ ActiveRecord::Schema.define(version: 20140923200025) do
   end
 
   add_index "delayed_jobs", ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
+
+  create_table "products", force: true do |t|
+    t.integer "uber_coordinate_id"
+    t.string  "product_id"
+    t.string  "product_name"
+  end
 
   create_table "uber_coordinates", force: true do |t|
     t.string   "location"
